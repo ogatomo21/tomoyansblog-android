@@ -15,6 +15,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.compose.setContent
+import androidx.activity.compose.LocalActivity
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
@@ -177,7 +178,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun ConfigureSystemBars() {
     val isDarkMode = androidx.compose.foundation.isSystemInDarkTheme()
-    val context = LocalContext.current as ComponentActivity
+    val context = LocalActivity.current as ComponentActivity
     val statusBarLight = android.graphics.Color.parseColor("#7086BD")
     val statusBarDark = android.graphics.Color.parseColor("#435071")
     val navigationBarLight = android.graphics.Color.TRANSPARENT
