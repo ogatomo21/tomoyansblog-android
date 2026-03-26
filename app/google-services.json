@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "411925125086",
+    "project_id": "tomoyansblog",
+    "storage_bucket": "tomoyansblog.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411925125086:android:600338263636ec178f2f4f",
+        "android_client_info": {
+          "package_name": "net.ogatomo.tomoyansblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvSHqhb88cPL7X8Q0qCobdml1MzH285ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

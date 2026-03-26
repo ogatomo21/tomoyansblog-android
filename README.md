@@ -2,16 +2,16 @@
 
 ## 概要
 
-Tomoyan's Blog([https://ogatomo.net](https://ogatomo.net))のブログに飛ぶだけのAndroidアプリです。
+Tomoyan's Blog([https://ogatomo.net](https://ogatomo.net))をサクサク閲覧できるAndroidアプリです。
 
-ショートカットのほうが近いかも？
+記事公開時の通知もあります！
 
 ## 対応OS
 
-- targetSdk 35 (Android15)
-- minSdk 16 (Android4.1)
+- targetSdk 36 (Android16)
+- minSdk 23 (Android6.0)
 
-ただリンクに飛ばすだけなのでAndroid4.1でも動きます。
+なんとAndroid6.0でも動きます。（v1.0のショートカットだけなら4.1でも動く）
 
 ## アイコン
 
@@ -21,6 +21,6 @@ Tomoyan's Blog([https://ogatomo.net](https://ogatomo.net))のブログに飛ぶ�
 
 - 実用性 皆無
 - 使い勝手 皆無
-- ライセンス MITライセンスで公開してます。どんどんパクっていいよ！！
+- ライセンス MIT
 - 制作者 小川智也(@ogatomo21)
-- 制作協力 ChatGPT 40(ほとんどこいつ)
+- 制作協力 Codex(ほとんどこいつ)
